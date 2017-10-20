@@ -1,0 +1,25 @@
+{
+  "name": "express-webserver",
+  "version": "1.0.0",
+  "description": "a simple web server powered by  Express",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "super": "supervisor index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zh-yang/express-WebServer.git"
+  },
+  "keywords": "express server",
+  "author": "zh -yang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zh-yang/express-WebServer/issues"
+  },
+  "homepage": "https://github.com/zh-yang/express-WebServer#readme",
+  "dependencies": {
+    "express": "^4.16.2",
+    "supervisor": "^0.12.0"
+  }
+}
